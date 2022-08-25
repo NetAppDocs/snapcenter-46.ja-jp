@@ -308,7 +308,7 @@ SnapCenter は、クレデンシャルを使用して SnapCenter 処理を実行
 
 このクレデンシャルは、 root ユーザに対して作成されるほか、プラグインプロセスをインストールして開始する sudo 権限がある root 以外のユーザに対しても作成されます。
 
-詳細については、を参照してください <<Configure sudo privileges for non-root users for Linux host>> または <<Configure sudo privileges for non-root users for AIX host>>
+詳細については、を参照してください  sudo privileges for non-root users for Linux host または  sudo privileges for non-root users for AIX host
 
 |===
 
