@@ -6858,7 +6858,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-25 12:01:18 +0000">08/25/2022</time>
+    <time datetime="2022-11-24 09:25:54 +0000">11/24/2022</time>
     
   
 
@@ -6929,22 +6929,25 @@
 <div class="ulist">
 <ul>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 cluster identity modify -vserver cluster_name または cluster_name -access all 」を指定します</p>
+<p><code>security login role create -vserver Cluster_name or cluster_name -role Role_Name -cmddirname "metrocluster show" -access readonly</code></p>
 </li>
 <li>
-<p>「 security login role create -role role_Name -cmddirname 」 cluster identity show -vserver cluster_name -access all 」を参照してください</p>
+<p><code>security login role create -vserver Cluster_name or cluster_name -role Role_Name -cmddirname "cluster identity modify" -access all</code></p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 cluster modify -vserver cluster_name -access all `</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster identity show" -access all</code></p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 cluster peer show -vserver cluster_name -access all `</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster modify" -access all</code></p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 cluster show -vserver Cluster_name -access all `</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster peer show" -access all</code></p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 event generate-autosupport-log 」 -vserver cluster_name -access all `</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster show" -access all</code></p>
+</li>
+<li>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "event generate-autosupport-log" -access all</code></p>
 </li>
 <li>
 <p>security login role create -vserver cluster_name -role Role_Name -cmddirname " job history show " -access all `</p>
@@ -7034,10 +7037,10 @@
 <p>security login role create -vserver cluster_name -role Role_Name -cmddirname "security login" -access readonly `</p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」「 snapmirror create 」 -vserver cluster_name -access all 」を参照してください</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "snapmirror create" -access all</code></p>
 </li>
 <li>
-<p>「 security login role create -role Role_Name -cmddirname 」 snapmirror list -destinations 「 -vserver cluster_name -access all 」を指定します</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "snapmirror list-destinations" -access all</code></p>
 </li>
 <li>
 <p>「 security login role create -vserver cluster_name -role Role_Name -cmddirname 」 snapmirror policy add -rule 「 -access all</p>
