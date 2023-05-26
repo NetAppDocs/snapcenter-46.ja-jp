@@ -7799,4 +7799,6 @@
   <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">Exchangeボリューム（LUN）を扱う場合は、ログとデータベースに対して個別のバックアップポリシーを作成し、同じラベルを使用して、ログポリシーのkeep（retention）をデータベースポリシーの2倍の数に設定します。詳細については、を参照してください。<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>。</block>
   <block id="e8db8241188813a9c299f2730ff21c40" category="admonition">制御ファイルをリストアするときは、ディレクトリ構造が存在するか、または正しいユーザおよびグループの所有権を持つディレクトリ構造が作成されていることを確認してください（存在する場合）。これにより、リストアプロセスによってファイルがターゲットの場所にコピーされるようになります。ディレクトリが存在しない場合、リストアジョブは失敗します。</block>
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Javaはサポートされていません。</block>
+  <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">LUNのデバイスを検出できませんというエラーが表示されて処理に失敗します</block>
+  <block id="24642a08e354f43168ca4f1178850f84" category="list-text">iSCSIプロトコルとFCプロトコルが混在するigroupを使用して、LUNがAIXホストにマッピングされていないことを確認してください。詳細については、を参照してください<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
 </blocks>
