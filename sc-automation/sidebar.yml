@@ -9,7 +9,7 @@ entries:
 - title: 基盤としての REST Web サービス
   url: "/sc-automation/concept_rest_web_services_foundation.html"
 - title: 基本的な動作特性
-  url: "/sc-automation/concept_basic_operational_characterstics.html"
+  url: "/sc-automation/concept_basic_operational_characteristics.html"
 - title: API 要求を制御する入力変数
   url: "/sc-automation/concept_input_variables_controlling_an_api_request.html"
 - title: API 応答の解釈
@@ -19,7 +19,7 @@ entries:
   - title: その他のプラグインでサポートされている REST API ワークフロー
     url: "/sc-automation/reference_supported_rest_apis.html"
   - title: Oracle データベースでサポートされる REST API
-    url: "/sc-automation/refrence_rest_apis_supported_for_oracle_database.html"
+    url: "/sc-automation/reference_rest_apis_supported_for_oracle_database.html"
   - title: SnapCenter サーバのディザスタリカバリでサポートされる REST API
     url: "/sc-automation/rest_api_workflows_disaster_recovery_of_snapcenter_server.html"
 - title: Swagger API Web ページから REST API にアクセスする方法

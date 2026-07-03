@@ -1,5 +1,5 @@
 ---
-permalink: protect-sco/reference_prepare_storage_systems_for_snapmirror_and_snapvault_replication_for_plugin_for_oracle.html 
+permalink: protect-sco/reference_prepare_storage_systems_for_snapmirror_and_snapvault_replication_for_plug-in_for_oracle.html 
 sidebar: sidebar 
 keywords: snapmirror, snapvault, storage system, replication 
 summary: SnapCenter プラグインは、 ONTAP の SnapMirror テクノロジおよび SnapVault テクノロジと組み合わせて使用できます 

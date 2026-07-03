@@ -208,7 +208,6 @@
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">SnapCenter Plug-ins Package for AIX ：以下のプラグインが含まれています。</block>
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">SnapCenter Plug-in for UNIX はスタンドアロンのプラグインではなく、個別にインストールすることはできません。このプラグインは、 SnapCenter Plug-in for Oracle Database のインストール時に自動的にインストールされます。</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">SnapCenter カスタムプラグイン</block>
-  <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">NetApp Storage Automation Store の略</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">SnapCenter Plug-in for VMware vSphere は、ネットアップのデータブローカーです。仮想化されたデータベースやファイルシステムに対する SnapCenter のデータ保護処理をサポートする、スタンドアロンの仮想アプライアンスです。</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">SnapCenter サーバ</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">SnapCenter サーバには、 Web サーバ、一元化された HTML5 ベースのユーザインターフェイス、 PowerShell コマンドレット、 REST API 、および SnapCenter リポジトリが含まれています。</block>
@@ -766,7 +765,6 @@
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">導入の詳細については、を参照してください<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>。</block>
   <block id="0a43bd1f35095f6ca081444f65372381" category="section-title">CA 証明書を導入する</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">SSL 証明書を作成またはインポートします</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">SnapCenter Plug-in for VMware vSphere で CA 証明書を設定するには、を参照してください<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>。</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">CRL ファイルを設定します</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">SnapCenter Plug-in for VMware vSphere は、事前に設定されたディレクトリ内の CRL ファイルを検索します。VMware vSphere 用 SnapCenter プラグインの CRL ファイルのデフォルトディレクトリは、 _/opt/NetApp/config/crl_です 。</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">このディレクトリに複数の CRL ファイルを配置できます。着信証明書は各 CRL に対して検証されます。</block>
@@ -3774,7 +3772,6 @@
   <block id="06b047d338ab216568f24797a92a475a" category="list-text">RBAC ロールに RBAC ユーザを割り当てておく必要があります。</block>
   <block id="4fcc15e06159b8ced3ec8f0100fa1a04" category="list-text">ホスト、 SnapCenter Plug-in for Microsoft SQL Server 、クレデンシャル、クローンライフサイクルリソースグループ、およびストレージシステムに RBAC ユーザを割り当てておく必要があります。</block>
   <block id="92d37724657724129ae0451584c728aa" category="inline-link">SnapCenter Plug-in for VMware vSphere を削除します</block>
-  <block id="00b3864f3eb01692ecdfe4f18c19971c" category="paragraph">SnapCenter Plug-in for VMware vSphere のアンインストールについては、を参照してください<block ref="17b687e0a579b9f5223d3c7119027217" category="inline-link-rx"></block>。</block>
   <block id="1f3416d24aa4604f3bf013f7b5ba6d0f" category="summary">個々のプラグインまたはプラグインパッケージが不要になった場合は、 SnapCenter インターフェイスを使用してアンインストールできます。</block>
   <block id="76af7718f89458bae85fc299897539a1" category="doc">SnapCenter GUI を使用してプラグインをアンインストールします</block>
   <block id="59c6427d777966a59438a00364121a39" category="list-text">アンインストールするプラグインパッケージのリソースグループを削除しておく必要があります。</block>
@@ -4902,8 +4899,6 @@
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">Plug-in for Windows では、 Microsoft クラスタ内の仮想マシンでの MPIO はサポートされません。</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">共有 FC RDM LUN を作成</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">FC RDM LUN を使用して Microsoft クラスタ内のノード間でストレージを共有する前に、共有クォーラムディスクと共有ストレージディスクを作成し、それらをクラスタ内の両方の仮想マシンに追加しておく必要があります。</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">物理ホスト間で仮想マシンをクラスタ化します</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">共有ディスクの作成に Plug-in for Windows は使用しません。共有 LUN を作成し、クラスタ内の各仮想マシンに追加する必要があります。詳細については、を参照してください<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>。</block>
   <block id="9a1e93115df18651562a9dbdedd4b61d" category="summary">SnapCenter では、 Role-Based Access Control （ RBAC ；ロールベースアクセス制御）がサポートされています。SnapCenter 管理者が、 SnapCenter RBAC を使用して、ロールとリソースをワークグループまたは Active Directory 内のユーザまたは Active Directory 内のグループに割り当てます。RBAC ユーザは、割り当てられたロールを使用して SnapCenter にログインできるようになりました。</block>
   <block id="3a42fbb761150585f7eaf7c0a04e8c90" category="doc">SnapCenter にログインします</block>
   <block id="adc5fe8b45ecd95856d19e35346df6c7" category="list-text">Windows Server Manager で Windows Process Activation Service （ WAS ）を有効にする必要があります。</block>
@@ -5127,23 +5122,14 @@
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
-  <block id="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link"><block ref="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link-rx"></block></block>
-  <block id="bb66384fc72d3c628df8a5f0f82af691" category="paragraph"><block ref="bb66384fc72d3c628df8a5f0f82af691" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="inline-link"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
-  <block id="e895a12067be0bbd74a4e8b2b0aa1151" category="paragraph"><block ref="e895a12067be0bbd74a4e8b2b0aa1151" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
-  <block id="547ea2e305891e64d8e744949b0aca2c" category="inline-link"><block ref="547ea2e305891e64d8e744949b0aca2c" category="inline-link-rx"></block></block>
-  <block id="f48d97bbf0d920d837c970ab54fcbf14" category="paragraph"><block ref="f48d97bbf0d920d837c970ab54fcbf14" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
-  <block id="50921fca0d376fca62102a5e608994e2" category="inline-link"><block ref="50921fca0d376fca62102a5e608994e2" category="inline-link-rx"></block></block>
-  <block id="3440f69304b6f0194e5502be93aede3f" category="paragraph"><block ref="3440f69304b6f0194e5502be93aede3f" category="inline-link-rx"></block></block>
   <block id="b4de17ead867a3cf0b9d11e57e562672" category="section-title">機械翻訳</block>
   <block id="19d4bd8b5bc76a91b74c1aa69ecea894" category="paragraph">翻訳版のコンテンツに関する重要な情報。</block>
   <block id="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link"><block ref="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link-rx"></block></block>
-  <block id="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="paragraph"><block ref="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="0d06100a9c9a8a7758a0d58988e99d2f" category="paragraph">本製品で使用されているサードパーティの著作権およびライセンスに関する情報を提供します。お使いの製品では、必ずしも以下に示すすべてのソフトウェアコンポーネントを使用しているわけではありません。</block>
   <block id="341b772831859beaa3c9f1cd40c3fdf7" category="inline-link">SnapCenter 4.6 に関する注意事項</block>
@@ -5836,7 +5822,6 @@
   <block id="dd4b762c191c7a235ce898c094749679" category="paragraph">カスタムプラグインとストレージプラグインは、ホストの追加ページからインストールできます。</block>
   <block id="a344a2fc65197b27dcccc38ac1ef85a3" category="inline-link-macro">ホストを追加し、プラグインパッケージをリモートホストにインストールする。</block>
   <block id="a5f00a79eb947021702cee9fc1d05354" category="paragraph"><block ref="a5f00a79eb947021702cee9fc1d05354" category="inline-link-macro-rx"></block></block>
-  <block id="56cb38ae9f515c555dfc8601fd4c0070" category="paragraph">ネットアップでは、 MySQL 、 MaxDB 、 DB2 、 Sybase 、 DPGLUE も提供しています。 MongoDB 、 ORASCPM 、 PostgreSQL のカスタムプラグイン。これらのプラグインは、からダウンロードできます<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>。</block>
   <block id="022c56789408e44b04cf1944babfa527" category="admonition">SnapCenter のサポートポリシーでは、 SnapCenter カスタムプラグインフレームワーク、コアエンジン、および関連する API のサポートについて説明します。サポートは、プラグインのソースコードと、カスタムプラグインフレームワーク上に構築された関連スクリプトについては説明しません。</block>
   <block id="4a7e6c3a47ec940f7e3059981cd146da" category="paragraph">独自のカスタムプラグインは、を参照して作成できます <block ref="9ef4188c6ecd9ed20479c22e2842115e" category="inline-link-macro-rx"></block>。</block>
   <block id="665e27cacd5b140b3ca5a518bbd41724" category="doc">カスタムプラグインリソースのリソースグループをバックアップする</block>
@@ -6220,7 +6205,6 @@
   <block id="5acceba2cee4fe40d121e90d997fa439" category="doc">SnapCenter Custom Plug-ins にリソースを追加します</block>
   <block id="09f1a1e976c751f8b861a75492f30752" category="list-text">カスタムプラグインを作成しておく必要があります。</block>
   <block id="797f1e031962d70e46335925184febf4" category="list-text">SnapCenter サーバにプラグインをアップロードしておく必要があります。</block>
-  <block id="eb609425665410a2e3cc5d5000880798" category="paragraph">MySQL や DB2 のアプリケーション用のリソースを追加することもできます。これらのプラグインは、からダウンロードできます<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>。</block>
   <block id="134848154c843b2b7ebbc0c3bf4c17a4" category="list-text">[ リソース ] ページで、 [ リソースの追加 ] をクリックします。</block>
   <block id="0750f05e0542388153777a63b5fa887c" category="paragraph">リソースの名前を入力します。</block>
   <block id="0e4c9e1ee0802a727d5dd0fcacc4a158" category="paragraph">タイプを選択します。type は、プラグインの概要ファイルに基づいてユーザが定義します。たとえば、データベースやインスタンスなどです。</block>
@@ -6301,8 +6285,6 @@
   <block id="c1d36bef52fc074303f12c52de7b144f" category="list-text">[ アップロード ] をクリックします。</block>
   <block id="14c63a85dc0d2eb17d6a4de481e630f9" category="paragraph">パッケージをアップロードする前に zip 形式のカスタムプラグインフォルダ内の記述子 .xml ファイルが検証されます。</block>
   <block id="22b9c22ece0544103d4ef5fde3f3591c" category="paragraph">SnapCenter サーバにアップロードされたカスタムプラグインが表示されます。</block>
-  <block id="00ebf5cec061915cd0462d73602dcad8" category="inline-link">NetApp Automation Store の略</block>
-  <block id="fa5ad2e8d730251bd90eea875f95091c" category="paragraph">MySQL または DB2 アプリケーションを管理する場合は、ネットアップが提供している MySQL および DB2 のカスタムプラグインを使用できます。MySQL と DB2 のカスタムプラグインについては、を参照してください<block ref="480a3096e7d732b8f84f20e353e713fd" category="inline-link-rx"></block></block>
   <block id="ab443ca6692007d7b4d66d4e3044cbd8" category="paragraph">「 * 事前確認をスキップ」チェックボックスを選択していない場合、ホストがプラグインのインストール要件を満たしているかどうかが検証されます。ディスクスペース、 RAM 、 PowerShell のバージョン、 .NET のバージョン、場所（ Windows プラグインの場合）、および Java のバージョン（ Linux プラグインの場合）が、最小要件に照らして検証されます。最小要件を満たしていない場合は、対応するエラーまたは警告メッセージが表示されます。</block>
   <block id="05095cde7f504457949712770df49d6a" category="summary">バックアップのスケジュールを決定する場合に最も重要な要因となるのは、リソースの変更率です。リソースをバックアップする回数が多いほど、リストア時に SnapCenter で使用する必要のあるアーカイブログの数が少なくなります。これにより、リストア処理の時間を短縮できます。</block>
   <block id="e4e0cadac57fe2f7fc1d76c019a73967" category="doc">カスタムプラグインリソースのバックアップスケジュール</block>
@@ -6873,10 +6855,7 @@
   <block id="9b51fddaf011faab92bf06f41ccf6d11" category="inline-link-macro">SQL Server のリソースグループを作成してポリシーを適用します</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">TCP_TIMEOUT での遅延のために MySQL 接続エラーが発生して、バックアップ処理が失敗します</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Windows スケジューラのエラーでバックアップが失敗します</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="0ebfc8ee6fcce1769e02ab4f33c1967f" category="summary">リソースグループはコンテナであり、一緒にバックアップして保護するリソースをここに追加します。リソースグループを使用すると、特定のアプリケーションに関連付けられているすべてのデータを同時にバックアップできます。リソースグループはすべてのデータ保護ジョブに必要です。リソースグループに 1 つ以上のポリシーを適用して、実行するデータ保護ジョブのタイプを定義することも必要です。</block>
   <block id="8a256fc5affeb3e3570c3c8e73ce682b" category="paragraph">リソースを個別に保護する場合、新しいリソースグループを作成する必要はありません。保護されたリソースでバックアップを作成することができます。</block>
   <block id="80b4392036b2c71988077d45b3eedc67" category="paragraph">リソースグループを検索するときに役立つラベルを入力します。たとえば、複数のリソースグループに HR をタグとして追加すると、あとから HR タグに関連付けられたすべてのリソースグループを検索できます。</block>
@@ -6982,7 +6961,6 @@
   <block id="5891deda92209d1d45144775b7d5c20d" category="admonition">WindowsスケジューラまたはSQL Serverエージェントで作成されたバックアップジョブの名前は変更しないでください。</block>
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">暗黙的なリソースグループが作成されます。これを表示するには、 [ ユーザーアクセス（ User Access ） ] ページで該当するユーザーまたはグループを選択します。暗黙的なリソースグループタイプは「リソース」です。</block>
   <block id="f1b0e4721c4648a3a0d9747b1df24457" category="inline-link">リソースの休止処理またはグループ化処理が失敗します</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="bfa8c341f9069cab983b83a7b3d6e229" category="summary">バックアップポリシーにはバックアップあたりの最大データベース数を設定できるオプション（デフォルト値は 100 \ ）があるため、すべてのデータベースを同じボリュームに配置できます。</block>
   <block id="49d3d638c72a43de1071ccafc35ba79d" category="doc">同じボリューム上の複数のデータベース</block>
   <block id="4e23a71c353d487c1b39814259994b97" category="paragraph">バックアップポリシーには、バックアップあたりの最大データベース数を設定するオプション（デフォルト値は 100 ）があるため、すべてのデータベースを同じボリュームに配置できます。</block>
@@ -7165,8 +7143,6 @@
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">クローンライフサイクルの実行</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link-macro">デフォルトの TCP_TIMEOUT 値を使用すると、クローニング処理が失敗するか所要時間が長くなる可能性があります</block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="60b2a4dd687e5b16ce91fc08c7273c8b" category="summary">実行中、キューに登録済み、または応答しないバックアップ処理をキャンセルできます。バックアップ処理をキャンセルすると、 SnapCenter サーバは処理を停止し、作成されたバックアップが SnapCenter サーバに登録されていない場合は、ストレージからすべての Snapshot コピーを削除します。バックアップがすでに SnapCenter サーバに登録されている場合、キャンセル後も、作成済みの Snapshot コピーはロールバックされません。</block>
   <block id="6895fc6b34ff814dd8d20f8eb70439e5" category="doc">SnapCenter Plug-in for Microsoft SQL Server のバックアップ処理をキャンセルします</block>
   <block id="d15cddcc0f2911c53261943c85948fab" category="list-text">リストア処理をキャンセルするには、 SnapCenter 管理者またはジョブ所有者としてログインする必要があります。</block>
@@ -7487,9 +7463,7 @@
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server データベース、インスタンス、または可用性グループをバックアップする</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">フェイルオーバークラスタインスタンスのデータベースクローンが失敗します</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="9e8da765ee75f7782977c25a6321dadb" category="summary">SnapManager for Microsoft SQL Server から SnapCenter にデータをインポートすると、以前のバージョンのデータを引き続き使用できるようになります。SnapManager for Microsoft SQL Server から SnapCenter にインポートできるのは、 SnapVault テクノロジを使用してアーカイブされたバックアップだけです。</block>
   <block id="1775c206d933e72952320bc9c39e56a4" category="doc">アーカイブバックアップのインポートの概要</block>
   <block id="4311a9aa7335c4d3eaea1abc109915e9" category="summary">SnapCenter Plug-in for Microsoft Windows を使用してネットアップストレージシステムをプロビジョニングしたら、 SnapCenter グラフィカルユーザインターフェイス \ （ GUI\ ）または PowerShell コマンドレットを使用して、リソースをネットアップストレージシステムに移行するか、またはあるネットアップ LUN から別のネットアップ LUN に移行できます。</block>
@@ -7804,4 +7778,24 @@ NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）に
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
   <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">SnapCenter Plug-in for VMware vSphereのCA証明書を導入することもできます。詳細については、以下を参照してください。 <block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block> 。</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">CA証明書をSnapCenter Plug-in for VMware vSphereで構成するには、<block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">共有ディスクの作成にPlug-in for Windowsは使用しません。共有LUNを作成し、クラスタ内の各仮想マシンに追加する必要があります。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">関連情報</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Broadcom技術ドキュメント</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph"><block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block>を参照し、物理ホスト間で仮想マシンをクラスタリングする方法や、Microsoft クラスタ用の共有 FC RDM LUN を作成する方法に関するドキュメントを検索してください。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a5e2857bcbb24beb61afacbeb1096de4" category="paragraph"><block ref="a5e2857bcbb24beb61afacbeb1096de4" category="inline-link-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="78aa1e0fed76ce2fb3ad8dbadc39597f" category="paragraph"><block ref="78aa1e0fed76ce2fb3ad8dbadc39597f" category="inline-link-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="0e1f903c24e742b2c05ca97512d816a8" category="paragraph"><block ref="0e1f903c24e742b2c05ca97512d816a8" category="inline-link-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="66011001e458ee6a7572488743ab37f6" category="paragraph"><block ref="66011001e458ee6a7572488743ab37f6" category="inline-link-rx"></block></block>
+  <block id="5027ef7cc504e9bcee4f891f9e56ef89" category="paragraph"><block ref="5027ef7cc504e9bcee4f891f9e56ef89" category="inline-link-rx"></block></block>
+  <block id="6b77b088a166c6def22b47133c882582" category="paragraph">NetAppでは、MySQL、MaxDB、Db2、Sybase、DPGLUE、MongoDB、ORASCPM、PostgreSQLのカスタム プラグインも提供しています。</block>
+  <block id="9ef736e00e9830a4ee825444862d9685" category="paragraph">MySQLまたはDB2アプリケーションを管理する場合は、NetAppが提供しているMySQLおよびDB2のカスタム プラグインを使用できます。</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
+  <block id="79cfb9f00fa8ea603f631e679e453fad" category="paragraph">SnapCenter Plug-in for VMware vSphere のアンインストールについては、<block ref="cae8a6db54fa4da6d80207fee61e78d1" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
